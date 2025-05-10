@@ -58,3 +58,4 @@ python get_classdata_txt_config.py
 
 - 程式會模擬瀏覽器登入，請勿濫用
 - **請勿上傳 `config.txt` 到 GitHub！**
+- Code內所有companylink請以OA全名取代
