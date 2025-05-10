@@ -91,7 +91,7 @@ def main():
             frame = soup.find("turbo-frame", id="lesson_reports")
             if not frame or not frame.has_attr("src"):
                 raise Exception("❌ 找不到 lesson_reports 的 URL")
-            lesson_url = "https://corp.orangeapple.co" + frame["src"]
+            lesson_url = "https://corp.companylink.co" + frame["src"]
             print("✅ 取得課堂記錄頁面 URL：", lesson_url)
             driver.get(lesson_url)
             time.sleep(3)
